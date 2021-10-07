@@ -18,8 +18,7 @@ const options = {
 };
 
     const res = await axios.request(options);
-  
-    const dat = res.data[0]
+    const dat = {name:diet,...res.data[0]}
     console.log(dat)
     return dat
 }
@@ -60,12 +59,13 @@ const dietplantracker =   () => {
   </View>
     <DataTable>
       <DataTable.Header>
+      <DataTable.Title >Name</DataTable.Title>
         <DataTable.Title numeric>water</DataTable.Title>
         <DataTable.Title numeric>energy_kcal</DataTable.Title>
         <DataTable.Title numeric>TOTAL</DataTable.Title>
                     
       </DataTable.Header>
-      <Dietrow diet = {data}/>
+      <Dietrow diet = {data}  />
       </DataTable>
       </View>
   );
