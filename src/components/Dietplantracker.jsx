@@ -26,21 +26,15 @@ const options = {
 
 
 const dietplantracker =   () => {
-    const [data,setData] = useState({"confirmed":"--",
-                                    "confirmed_diff":"--",
-                                    "deaths":"--",
-                                    "region":{"province":"--"}})
+    const [data,setData] = useState([])
 
     const [text,setText] = useState("")
     const cpy = {...data}
     
     const onSubmit = async () => {
       const dta = await getdietplantracker(text)
-      if (dta){ 
-      setData(dta)}
-      else {
-        setData(cpy)
-      }
+      setData([...data,dta])
+      console.log(data)
   }
 
 
@@ -65,7 +59,9 @@ const dietplantracker =   () => {
         <DataTable.Title numeric>TOTAL</DataTable.Title>
                     
       </DataTable.Header>
-      <Dietrow diet = {data}  />
+     
+      {data.map((e,index) => <Dietrow diet={e} key={index}/>)}
+      
       </DataTable>
       </View>
   );

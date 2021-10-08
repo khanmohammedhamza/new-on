@@ -10,6 +10,8 @@ const Dietrow = ({diet}) => {
           <DataTable.Cell numeric>{diet.energ_kcal}</DataTable.Cell>
           <DataTable.Cell numeric>{ total}</DataTable.Cell>
           </DataTable.Row>
+
+          
     )
   }
 
