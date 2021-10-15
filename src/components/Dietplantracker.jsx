@@ -3,7 +3,7 @@ import {Button,TextInput,Text, DataTable } from 'react-native-paper';
 import {View} from 'react-native';
 import axios from "axios";
 import Dietrow from './Dietrow';
-
+import Hamza from './Hamza';
 const getdietplantracker = async (diet) => {
 
   
@@ -63,6 +63,7 @@ const dietplantracker =   () => {
       {data.map((e,index) => <Dietrow diet={e} key={index}/>)}
       
       </DataTable>
+        <Hamza/>
       </View>
   );
 }
