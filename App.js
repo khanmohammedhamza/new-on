@@ -7,36 +7,12 @@ import Header from "./src/components/Header"
 
 import Home from "./src/components/Home"
 
-const theme = {
-  ...DefaultTheme,
-  roundness: 2,
-  colors: {
-    ...DefaultTheme.colors,
-    primary: '#800000',
-    accent: '#f1c40f',
-  }
+
+import AuthNavigation from './src/components/AuthNavigation';
+
+
+const App = () => {
+  return <AuthNavigation/>
 }
 
-
-export default function App() {
-  const [page,setPage] = useState("Stats")
-  const [dis,setDis] = useState(true)
-  const onStats = () => {
-    setPage("Stats")
-    setDis(false)
-  }
-
- 
-
-  const goBack = () => {
-    setDis(true)
-    setPage("Home")
-  }
-
-  return (
-    <PaperProvider theme={theme}>
-      <Header goBack={goBack} dis={dis}/>
-      <Dietplantracker  />
-    </PaperProvider>
-  );
-}
+export default App;
