@@ -9,10 +9,12 @@ import Home from "./src/components/Home"
 
 
 import AuthNavigation from './src/components/AuthNavigation';
+import LoginScreen from './src/components/LoginScreen';
+import SignupScreen from './src/components/SignupScreen';
 
 
 const App = () => {
-  return <AuthNavigation/>
+  return <Dietplantracker/>
 }
 
 export default App;

@@ -1,0 +1,12 @@
+export const dialogflowConfig = {
+    "type": "service_account",
+    "project_id": "chatbot-ihgs",
+    "private_key_id": "349eaafd6c88a1aeaeee95cea1b3d235c40ff4cf",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCIQzY9bRfQL2Iu\nGUVUib4iDyOL+uVVdnzz67oaAByJZXJr7O42aajxx0iWYw6MUYTqVwgxq2DX4ubz\n/sPACw93I2/KFGD/esGdHvJXz/TTxhVtaMxjwBKSsjReDvmy+zicuQz1porDjaBX\nGBNwkdI29CWt5/iz9ySV2RYq9gdgjiNs/dC539pQ3HDVLSjXCaAhsfuG8a7RfeSW\nsajRlZhHjARdGS5oj83C+Zq5VJOfhrUiH0AGOy2QRrevi0ZnvIQARLk9i3ibOt0k\nG4Z0ygti8CZ7xrbcqwkG7VW8omuARCQrMR7CBPA/+vrHLWwlvvAPL8C4jOyQ9dsg\n7aC9ZKtxAgMBAAECggEACeKPI6g8QxyLRU5ANgOvrBEOfAANm53dLuUwNEtDLRtG\n0GbsP9Z50vkpHjIw1hbipKaZEBPFxabB9WJk35PBB/YL2b+RUW23PPqhPwoot/I8\nD+dVDuMNfEat2NyPDbmYbK1Z/NO1NL5OxIxMRyBoMEqVSMccYJKlvOWP0tPTsWCs\n1/hD9keJhsgvLc/h27iZQSwCbhhh9eIpfmuDwfizosKIgRorC0CYIHqQugMG1P1Q\nf44zOgPNx0IuTa9DuC+gTHuzbSawBQ+KhM6Lc9btDFFhWCDsgyjpA5ioJFc2rjK6\nMhRN8Tqx7MkKzUOHeL6tr5+oo4P1aNObt5yH39xM5wKBgQC8X+fCyvZTFuP4eCgl\n45IlolGk/KAtnjPZ9GPrI/mj8IDj59q8TFXj0guDlFBGeCFt+0z4HjzJbVcZdS+E\nQjBlLxDMenZ6kUier4pw1lIoZf67+dS/MHab9Qz3eEY06vJHAzzl0Vo4gnZ4j8n+\nDdqIGrPs/Q3AQU/3R79tx3lCjwKBgQC5LhO8wgw7TXT1dWRxwrIBSVPgw0EjTNaC\nw+939CevNY7tdAHHxdKo7c6xSQ2VAq+xmfXbnwJcJzPrGxH72GZVAz9QEUE+ml0C\nypkzg+FcYakSE2rP09hRibvaa3yyhn18IA9nGFataIdj3lHwYAborzw/bQAOuTpw\nIHsSA0Ix/wKBgDb92G6pSZegCxUyHqZQ9Q0/gY4koa4vjPuHuNOgQPR29WmS+ewW\nbMyBORNEbNrlnvy4bBPS3/P9k3u/FgwKNo6TWtgWuBe36fdJT6T5LCrW+7JskIrv\n3vBQbWShG/2+yNOqQlDk+O2eSG+RqmocKTuqb/QzO5xwdKO/skaeAOxJAoGAH6Ep\nKeKTKEXwpkRo5a11rhaSRx/Srm7fbPJ+oqSHarvhL9nSvAakFsqXtVxe/4a378P2\nZI7iXk8r5Qp4peWuhPLLC6gG1uSS4nksdcoe4iKkODws0FbE6hh2h7Y4VF34bQ0k\n1F0p4PCrv3kn0cD1LSVRSxwZGGq2+pPxsX/w/I0CgYBYtaCVauQltrAt13bFNkRN\njNS9ekI3cnEcffnq9fRYLXBmp4cyFL/Y7OxpIS7vhrpmhjgXaLlb1IAn6PSv3PUT\n44aTuEKP/hom+bkY3Dvob+yY/J/89XsJ/tUEQydI6eSiQvC/kI0rmHtE3TrjgCDn\nAQE2Ls95mGEo+VWOAcpbHw==\n-----END PRIVATE KEY-----\n",
+    "client_email": "chatbot-focustime@chatbot-ihgs.iam.gserviceaccount.com",
+    "client_id": "105933416898687965694",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chatbot-focustime%40chatbot-ihgs.iam.gserviceaccount.com"
+  }

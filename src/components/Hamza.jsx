@@ -15,8 +15,12 @@ export default function Hamza() {
   const setCurrentLocation = async () => {
     let { status } = await Location.requestForegroundPermissionsAsync();
     if (status !== 'granted') {
-      setErrorMsg('Permission to access location was denied');
-      return;
+      Alert.alert(
+        'Permission not granted',
+        'Allow the app to use location service.',
+        [{ text: 'OK' }],
+        { cancelable: false }
+      );
     }
     let location = await Location.getCurrentPositionAsync({});
     setLocation(location);
